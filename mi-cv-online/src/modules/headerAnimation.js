@@ -15,6 +15,7 @@ export function initHeaderAnimation() {
     if (scrollTop > lastScrollTop && scrollTop > 100) {
       // Bajando: oculta el header
       header.classList.add('header-hidden');
+      
     } else if (scrollTop < lastScrollTop) {
       // Subiendo: muestra el header
       header.classList.remove('header-hidden');
