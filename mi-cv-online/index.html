@@ -55,28 +55,20 @@
 </head>
 <body class="bg-white text-brand-dark font-sans">
 
-    <!-- Header -->
-    <header class="bg-white/80 backdrop-blur-lg shadow-sm fixed w-full z-50 transition-all duration-300 ease-in-out">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="logo">
-                
-            </div>
-            <ul class="hidden md:flex items-center space-x-8">
-                <li><a href="#experience" class="hover:text-brand-green transition-colors">Experiencia</a></li>
-                <li><a href="#skills" class="hover:text-brand-green transition-colors">Habilidades</a></li>
-                <li><a href="#education" class="hover:text-brand-green transition-colors">Formación</a></li>
-                <li><a href="#contact" class="hover:text-brand-green transition-colors">Contacto</a></li>
-            </ul>
-        </nav>
-      </header>
+
       
       <main>
         <!-- Hero Section -->   
-        <section id="home" class="md:pt-10 pb-16 flex flex-col-reverse md:flex-row items-center gap-8 min-h-screen">
-            <div class="text-content mx-12 md:mx-28 md:w-1/2 text-center md:text-left">
+        <section id="home" class="pb-16 flex flex-col-reverse md:flex-row items-center gap-8 min-h-screen">
+            <div class="md:mt-40 text-content mx-12 md:mx-28 md:w-1/2 text-center md:text-left">
                 <h1 class=" md:leading-[1.2] font-heading text-4xl md:text-5xl font-bold leading-2 mb-8"><span class="font-light">Carol Shire</span> <br>Mosquera G.</h1>
                 <p class="text-lg text-gray-700 max-w-xl mx-auto md:mx-0">Líder en innovación financiera con más de 10 años de experiencia redefiniendo productos, operaciones y procesos.</p>
                 <a href="#contact" class="mt-8 inline-block bg-brand-green text-white font-bold py-5 px-10 rounded-full hover:bg-green-600 transition-colors">Conversemos</a>
+                <br>
+                <div class="social-icons inline-block space-x-6 my-6 mx-9">
+                  <a href="mailto:hola@carolshire.com" target="_blank" aria-label="Email" class="text-2xl text-gray-400 hover:text-brand-green transition-colors"><i class="fas fa-envelope"></i></a>
+                  <a href="https://www.linkedin.com/in/caroll-mosquera-47a266235/" target="_blank" aria-label="LinkedIn" class="text-2xl text-gray-400 hover:text-brand-green transition-colors"><i class="fab fa-linkedin-in"></i></a>
+                </div>
             </div>
                              <!-- Video Content -->
 
@@ -87,6 +79,38 @@
                     Tu navegador no soporta la etiqueta de video.
                 </video>
             </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-16">
+          <div class="visual-content md:w-1/2 bg-gray-50 min-h-[400px] rounded-lg hidden md:block"></div>
+            <div class="text-content md:w-1/2">
+                <h2 class="font-heading text-4xl font-bold inline-block border-b border-black pb-2 mb-8">Habilidades</h2>
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="font-heading text-xl font-bold">Habilidades Profesionales</h3>
+                        <ul class="mt-2 text-gray-700 space-y-2 list-checkmark">
+                           <li>Diseño funcional de productos bancarios</li>
+                           <li>Identificación de necesidades de cliente</li>
+                           <li>Liderazgo en entornos cambiantes</li>
+                           <li>Pensamiento estratégico y estructurado</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-heading text-xl font-bold">Herramientas Digitales</h3>
+                        <p class="text-gray-700">Excel Avanzado, Suite Office, JIRA, Miro, SQL, Figma.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-heading text-xl font-bold">Idiomas</h3>
+                        <ul>
+                          <li>Español: Nativo</li>
+                          <li>Inglés: B1 y avanzando</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+                        
         </section>
 
         <!-- Experience Section -->
@@ -162,36 +186,7 @@
             <div class="visual-content md:w-1/2 bg-gray-50 min-h-[400px] rounded-lg hidden md:block"></div>
         </section>
 
-        <!-- Skills Section -->
-        <section id="skills" class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-16">
-            <div class="text-content md:w-1/2">
-                <h2 class="font-heading text-4xl font-bold inline-block border-b border-black pb-2 mb-8">Habilidades</h2>
-                <div class="space-y-8">
-                    <div>
-                        <h3 class="font-heading text-xl font-bold">Habilidades Profesionales</h3>
-                        <ul class="mt-2 text-gray-700 space-y-2 list-checkmark">
-                           <li>Diseño funcional de productos bancarios</li>
-                           <li>Identificación de necesidades de cliente</li>
-                           <li>Liderazgo en entornos cambiantes</li>
-                           <li>Pensamiento estratégico y estructurado</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="font-heading text-xl font-bold">Herramientas Digitales</h3>
-                        <p class="text-gray-700">Excel Avanzado, Suite Office, JIRA, Miro, SQL, Figma.</p>
-                    </div>
-                    <div>
-                        <h3 class="font-heading text-xl font-bold">Idiomas</h3>
-                        <ul>
-                          <li>Español: Nativo</li>
-                          <li>Inglés: B1 y avanzando</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="visual-content md:w-1/2 bg-gray-50 min-h-[400px] rounded-lg hidden md:block"></div>
-                        
-        </section>
+
 
         <!-- Education Section -->
         <section id="education" class="container mx-auto px-6 py-16 flex flex-col md:flex-row-reverse items-center gap-16">
